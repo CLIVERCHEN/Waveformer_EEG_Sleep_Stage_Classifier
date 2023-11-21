@@ -18,19 +18,19 @@ Wavefromer/
 │
 ├── src/                        
 │   ├── models/                 
-│   │   ├── CAE.py  						# CAE模型
-│   │   └── main_model.py  					# Wavefromer模型
+│   │   ├── CAE.py  						            # CAE模型
+│   │   └── main_model.py  					        # Wavefromer模型
 │   ├── wavelet_transform.py                # 小波变换
-│   ├── visualization.py                 	# 可视化
-│   ├── energy.py                 			# 生成每段EEG的能量
-│   ├── CAE_train.py                 		# CAE训练
-│   └── train.py                 			# 训练代码
+│   ├── visualization.py                 	  # 可视化
+│   ├── energy.py                 			    # 生成每段EEG的能量
+│   ├── CAE_train.py                 		    # CAE训练
+│   └── train.py                 			      # 训练代码
 │
 ├── data/                       
-│   ├── raw_data/                    		# 原始EEG数据
-│   ├── energy_data/                    	# 能量数据
+│   ├── raw_data/                    		    # 原始EEG数据
+│   ├── energy_data/                    	  # 能量数据
 │   ├── pretreatment_data/                  # 原始 EEG 数据
-│   └── wavelet_data/              			# 小波变换后的数据
+│   └── wavelet_data/              			    # 小波变换后的数据
 │
 ├── results/                    
 │
