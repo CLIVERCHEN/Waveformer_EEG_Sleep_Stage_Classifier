@@ -1,4 +1,4 @@
-# Waveformer: A Transformer ased EEG Sleep Stage Classifier
+# Waveformer: A Transformer based EEG Sleep Stage Classifier
 ### 项目背景
 该项目为西安交通大学模式识别与机器学习BIME412113课程大作业，给出的数据集包括7个人睡眠时的大脑EEG信号，其中以30秒为一段，每段数据附有一个标签，该标签代表这30秒对应的睡眠分类。分类包括：
 - 清醒期（Wake，W）
